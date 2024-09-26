@@ -11,10 +11,15 @@ namespace fakeRepo
         static void Main(string[] args)
         {
         }
-
-        static CalculateCosts ( int base, int disc)
+        
+        static void CalculateCosts ( int base, int disc)
         {
             Console.WriteLine("Calculating costs...");
+            Console.WriteLine("Please, insert base cost:");
+            int cost = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please, insert discount:");
+            int discount = int.Parse(Console.ReadLine());
+            Console.WriteLine("Final cost is: " + (cost + discount));
         }
     }
 }
