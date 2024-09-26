@@ -15,6 +15,7 @@ namespace fakeRepo
         static CalculateCosts ( int base, int disc)
         {
             Console.WriteLine("Calculating costs...");
+            Console.WriteLine("Please insert discount: ");
         }
     }
 }
